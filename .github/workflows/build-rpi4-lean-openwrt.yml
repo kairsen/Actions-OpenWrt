@@ -12,15 +12,15 @@ on:
   repository_dispatch:
   release:
     types: published
-  push:
-    branches:
-      - master
-    paths:
-      - 'config/lean/rpi4-lean-openwrt.config'
+#  push:
+#    branches:
+#      - master
+#    paths:
+#      - 'config/lean/rpi4-lean-openwrt.config'
   schedule:
-    - cron: 0 18 * * *
-#  watch:
-#    types: started
+    - cron: 10 5 * * mon-fri
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -33,8 +33,8 @@ env:
   UPLOAD_EXT4_IMAGES: true
   UPLOAD_SQUASHFS_IMAGES: true
   UPLOAD_ROOTFS: true
-  UPLOAD_WETRANSFER: true
-  UPLOAD_COWTRANSFER: true
+  UPLOAD_WETRANSFER: false
+  UPLOAD_COWTRANSFER: false
   TZ: Asia/Shanghai
 
 jobs:
