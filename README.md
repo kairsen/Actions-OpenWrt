@@ -24,7 +24,7 @@
 
 ## 触发方式
 
-本项目采用 Star 触发方式:
+本项目经修改采用 Star 和每日定时触发方式:
 
 此外，Github Action 支持多种触发方式，比如定时触发、Star 触发等，详细操作方法请前往 [P3terx 大佬的博客](https://p3terx.com/archives/build-openwrt-with-github-actions.html) 中查看~
 
@@ -62,6 +62,7 @@ Action-OpenWrt-Rpi
 │  ├── offical-openwrt.sh # 官方 OpenWrt Snapshot 源码应用的 DIY 脚本文件
 │  ├── project-openwrt.sh # Project-OpenWrt 版源码应用的 DIY 脚本文件
 │  └── remove-upx.sh # 移除二进制文件中的 upx 压缩，以提高性能 (用于官方版 OpenWrt )
+├── server
 ├── template 提供 Lean / 官方 OpenWrt Snapshot / Project-OpenWrt 三种 config 配置文件模板
 ├── LICENSE # 项目许可证文件
 └── README.md # 项目描述文件
