@@ -19,6 +19,9 @@ sed -i 's/or "1"%>/or "1"%> ( <%=luci.sys.exec("expr `cat \/sys\/class\/thermal\
 pushd package/lean
 git clone --depth=1 https://github.com/fw876/helloworld
 
+# Add luci-app-vssr
+git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
+
 # Add Project OpenWrt's autocore
 rm -rf autocore
 svn co https://github.com/project-openwrt/openwrt/branches/18.06-kernel5.4/package/lean/autocore
