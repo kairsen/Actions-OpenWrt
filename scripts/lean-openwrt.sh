@@ -21,6 +21,7 @@ git clone --depth=1 https://github.com/fw876/helloworld
 
 # Add luci-app-vssr
 git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
+git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb
 
 # Add Project OpenWrt's autocore
 rm -rf autocore
