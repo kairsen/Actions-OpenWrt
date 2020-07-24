@@ -18,7 +18,7 @@ on:
 #    paths:
 #      - 'config/lean/rpi4-lean-openwrt.config'
   schedule:
-    - cron: 10 5 * * mon-sat
+    - cron: 10 6 * * mon-sat
   watch:
     types: started
 
