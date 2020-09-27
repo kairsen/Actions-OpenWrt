@@ -1,4 +1,4 @@
-# Forked and Modified upon [Action-OpenWrt-Plus](https://github.com/SuLingGG/Action-OpenWrt-Rpi)
+# Forked and Modified upon [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi)
 
 * 本项目提供适配于 树莓派 4 的 OpenWrt 固件
 * 包含丰富的 OpenWrt 原版 LuCI 插件及社区 LuCI 插件
