@@ -9,14 +9,11 @@
 name: Build Raspberry Pi 4 Lean's OpenWrt
 
 on:
-  repository_dispatch:
-  release:
-    types: published
-#  push:
-#    branches:
-#      - main
-#    paths:
-#      - 'config/lean/bcm27xx/rpi-lean-extra.config'
+#  repository_dispatch:
+#    types: [lean, rpi4]
+#  workflow_dispatch:
+#  release:
+#    types: published
   schedule:
     - cron: 30 6 * * mon-sat
   watch:
