@@ -26,8 +26,8 @@ env:
   DIY_SH: scripts/lean-openwrt.sh
   IPV6MOD_IN_FIRMWARE: true
   KMODS_IN_FIRMWARE: true
-  UPLOAD_DL: true
-  UPLOAD_RCLONE: true
+  UPLOAD_DL: false
+  UPLOAD_RCLONE: false
   UPLOAD_WETRANSFER: false
   UPLOAD_COWTRANSFER: false
   TZ: Asia/Shanghai
