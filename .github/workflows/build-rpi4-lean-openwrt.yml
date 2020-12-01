@@ -14,8 +14,8 @@ on:
 #  workflow_dispatch:
 #  release:
 #    types: published
-  schedule:
-    - cron: 30 6 * * mon-sat
+#  schedule:
+#    - cron: 30 6 * * mon-sat
   watch:
     types: started
 
